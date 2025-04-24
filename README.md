@@ -32,6 +32,38 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+```
+FUNCTION 1
+
+module function1(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+
+FUCTION 2
+
+module funct2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
+endmodule
+```
+
+FUNCTION 1
+
+![de exp2 function1 ss 3](https://github.com/user-attachments/assets/98cd2d90-86df-4607-ab09-d08254da25d5)
+
+FUNCTION 2
+
+![de exp2a funct2 ss 3](https://github.com/user-attachments/assets/196e311b-aaca-4804-9e2f-2c158a6fd40b)
+
+
+Developed by: KRIPAL R
+
+RegisterNumber: 212224040165
+
+
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
@@ -44,7 +76,24 @@ Developed by: RegisterNumber:*/
 
 **RTL**
 
+FUNCTION 1
+
+![de exp2 function1 ss2](https://github.com/user-attachments/assets/bb201ccf-8ba7-4d19-9f2b-7e1c3fc1d382)
+
+FUNCTION 2
+
+![de exp2a funct2 ss2](https://github.com/user-attachments/assets/0ebd5f2c-2959-424b-9baf-21228cd19880)
+
 **Timing Diagram**
+
+FUNCTION 1
+
+![de exp 2 function1 ss1](https://github.com/user-attachments/assets/a3e15bec-9289-492f-a834-65d5808fc798)
+
+FUMCTION 2
+
+![de exp2a funct2 ss1](https://github.com/user-attachments/assets/6606e101-9a0f-4f8e-a5d3-b4020c995c6d)
+
 
 **Result:**
 
