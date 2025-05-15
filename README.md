@@ -14,6 +14,8 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
 
+**Theory**
+
 **Logic Diagram**
 
 FUNCTION 1  **K-map**
@@ -24,6 +26,8 @@ FUNCTION 1  **K-map**
 FUNCTION 2   **K-map**
 
 ![Screenshot 2024-12-03 224502](https://github.com/user-attachments/assets/c20052a9-c001-4383-838d-8eedb8b4bb4b)
+
+
 
 **Procedure**
 
@@ -39,6 +43,7 @@ FUNCTION 2   **K-map**
 
 
 **Program:**
+
 ```
 FUNCTION 1
 
@@ -66,9 +71,9 @@ FUNCTION 2
 ![de exp2a funct2 ss 3](https://github.com/user-attachments/assets/196e311b-aaca-4804-9e2f-2c158a6fd40b)
 
 
-Developed by:KRIPAL R
+Developed by: M. KISHORE
 
-RegisterNumber:212224040165
+RegisterNumber: 24900763
 
 
 **RTL realization**
@@ -95,6 +100,7 @@ FUNCTION 1
 FUMCTION 2
 
 ![de exp2a funct2 ss1](https://github.com/user-attachments/assets/6606e101-9a0f-4f8e-a5d3-b4020c995c6d)
+
 
 **Result:**
 
